@@ -16,7 +16,6 @@ y_test <- read.table("./data/UCI HAR Dataset/test/y_test.txt")
 subject_test <- read.table("./data/UCI HAR Dataset/test/subject_test.txt")
 
 features <- read.table('./data/UCI HAR Dataset/features.txt')
-
 activity_labels = read.table('./data/UCI HAR Dataset/activity_labels.txt')
 
 ## Label the datasets
